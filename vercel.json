@@ -1,0 +1,8 @@
+{
+  "outputDirectory": ".",
+  "buildCommand": "",
+  "rewrites": [
+    { "source": "/api/chat", "destination": "/api/chat" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
